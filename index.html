@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edison - Desarrollador Full Stack</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header>
+        <div class="logo">
+            <div class="logo-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L13.09 8.26L20 9L14.55 13.47L16.18 20L12 16.77L7.82 20L9.45 13.47L4 9L10.91 8.26L12 2Z" fill="currentColor"/>
+                </svg>
+            </div>
+            <span>Edison</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="experiencia" class="nav-link">
+                    <i class='bx bx-code-alt'></i>
+                    <span>Experiencia</span>
+                </a></li>
+                <li><a href="#" data-section="trabajos" class="nav-link">
+                    <i class='bx bx-briefcase'></i>
+                    <span>Trabajos</span>
+                </a></li>
+                <li><a href="#" data-section="otros" class="nav-link">
+                    <i class='bx bx-user'></i>
+                    <span>Otros</span>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="profile-card">
+                    <div class="profile-image-container">
+                        <img src="images/profile.jpg" alt="Foto de perfil de Edison" class="profile-img">
+                        <div class="profile-glow"></div>
+                    </div>
+                    <div class="profile-badge">
+                        <i class='bx bx-medal'></i>
+                        <span>3+ años de experiencia</span>
+                    </div>
+                </div>
+                
+                <div class="bio-card">
+                    <h1>Edison <span class="accent-text">Developer</span></h1>
+                    <p class="bio-text">Desarrollador con más de 3 años de experiencia. Estudio Ingeniería en Computación y brindo servicios digitales, creando páginas web, sistemas y herramientas en Python, JavaScript, HTML y CSS.</p>
+                    
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <i class='bx bxl-python'></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class='bx bxl-css3'></i>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-section="experiencia">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L13.09 8.26L20 9L14.55 13.47L16.18 20L12 16.77L7.82 20L9.45 13.47L4 9L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Experiencia</h3>
+                    <p>Conoce mis habilidades</p>
+                    <div class="feature-hover">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-section="trabajos">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M19.4 15C19.2669 15.3034 19.1331 15.6066 19 15.91C18.718 16.5304 18.4268 17.1461 18.13 17.76L17.84 18.36C17.6771 18.7104 17.5138 19.0604 17.35 19.41C16.9289 20.3284 16.4956 21.2415 16.06 22.15C15.496 23.2833 14.9313 24.4167 14.36 25.55C13.844 26.5667 13.3227 27.5833 12.8 28.6L12 30L11.2 28.6C10.6773 27.5833 10.156 26.5667 9.64 25.55C9.06867 24.4167 8.504 23.2833 7.94 22.15C7.50436 21.2415 7.07109 20.3284 6.65 19.41C6.48616 19.0604 6.32294 18.7104 6.16 18.36L5.87 17.76C5.57318 17.1461 5.28204 16.5304 5 15.91C4.86694 15.6066 4.73306 15.3034 4.6 15C4.20428 14.158 3.80817 13.316 3.41 12.47C3.13667 11.8833 2.86333 11.2967 2.59 10.71L2.22 9.91C2.07333 9.57667 1.92667 9.24333 1.78 8.91C1.29667 7.77667 0.813333 6.64333 0.33 5.51L0 4.74L0.54 4.3C1.68667 3.42 2.83333 2.54 4 1.69C4.57667 1.29667 5.15333 0.903333 5.74 0.52L6.46 0.06H7.54L8.26 0.52C8.84667 0.903333 9.42333 1.29667 10 1.69C11.1667 2.54 12.3133 3.42 13.46 4.3L14 4.74L13.67 5.51C13.1867 6.64333 12.7033 7.77667 12.22 8.91C12.0733 9.24333 11.9267 9.57667 11.78 9.91L11.41 10.71C11.1367 11.2967 10.8633 11.8833 10.59 12.47C10.1918 13.316 9.79572 14.158 9.4 15C9.26694 15.3034 9.13306 15.6066 9 15.91C8.718 16.5304 8.42682 17.1461 8.13 17.76L7.84 18.36C7.67706 18.7104 7.51384 19.0604 7.35 19.41C6.92891 20.3284 6.49564 21.2415 6.06 22.15C5.496 23.2833 4.93133 24.4167 4.36 25.55C3.844 26.5667 3.32267 27.5833 2.8 28.6L2 30L1.2 28.6C0.677333 27.5833 0.156 26.5667 -0.36 25.55C-0.931333 24.4167 -1.496 23.2833 -2.06 22.15C-2.49564 21.2415 -2.92891 20.3284 -3.35 19.41C-3.51384 19.0604 -3.67706 18.7104 -3.84 18.36L-4.13 17.76C-4.42682 17.1461 -4.718 16.5304 -5 15.91C-5.13306 15.6066 -5.26694 15.3034 -5.4 15C-5.79572 14.158 -6.19183 13.316 -6.59 12.47C-6.86333 11.8833 -7.13667 11.2967 -7.41 10.71L-7.78 9.91C-7.92667 9.57667 -8.07333 9.24333 -8.22 8.91C-8.70333 7.77667 -9.18667 6.64333 -9.67 5.51L-10 4.74L-9.46 4.3C-8.31333 3.42 -7.16667 2.54 -6 1.69C-5.42333 1.29667 -4.84667 0.903333 -4.26 0.52L-3.54 0.06H-2.46L-1.74 0.52C-1.15333 0.903333 -0.576667 1.29667 0 1.69C1.16667 2.54 2.31333 3.42 3.46 4.3L4 4.74L3.67 5.51C3.18667 6.64333 2.70333 7.77667 2.22 8.91C2.07333 9.24333 1.92667 9.57667 1.78 9.91L1.41 10.71C1.13667 11.2967 0.863333 11.8833 0.59 12.47C0.191833 13.316 -0.20428 14.158 -0.6 15" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Trabajos - Demostración</h3>
+                    <p>Proyectos reales</p>
+                    <div class="feature-hover">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-section="otros">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 14C9.23858 14 7 16.2386 7 19V21H17V19C17 16.2386 14.7614 14 12 14Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M18 10C19.6569 10 21 8.65685 21 7C21 5.34315 19.6569 4 18 4C16.3431 4 15 5.34315 15 7C15 8.65685 16.3431 10 18 10Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M19 14C20.6569 14 22 15.3431 22 17V19H18V17C18 15.3431 18.8954 14 19 14Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M6 10C7.65685 10 9 8.65685 9 7C9 5.34315 7.65685 4 6 4C4.34315 4 3 5.34315 3 7C3 8.65685 4.34315 10 6 10Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M5 14C6.65685 14 8 15.3431 8 17V19H4V17C4 15.3431 4.89543 14 5 14Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Otros</h3>
+                    <p>Contacto y proyectos de aprendizaje</p>
+                    <div class="feature-hover">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title">Título</h2>
+                <button class="close-btn">
+                    <i class='bx bx-x'></i>
+                </button>
+            </div>
+            <div id="modal-body" class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
